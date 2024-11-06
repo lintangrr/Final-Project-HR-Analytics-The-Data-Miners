@@ -1,4 +1,5 @@
-# HR Analytics : Predicting Employee Promotion
+# HR Analytics : Predicting Employee Promotion ![image](https://github.com/user-attachments/assets/c6bcb3e7-3a82-4fef-9334-296e5ff34843)
+
 ## The Data Miners Group 
 - Lintang Rizki Ramadhani
 - Army Putera Parta
