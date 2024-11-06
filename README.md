@@ -74,6 +74,10 @@ Initially, we built baseline models using default hyperparameters. This step pro
 
 Best model for predicting employee promotion is XGBoost with SMOTE and Threshold Adjustment.
 
+F1-Score (Train) : 0.586
+
+F1-Score (Test) : 0.532
+
 - **High Screening Efficiency for Non-Eligible Employees**
 
 The model demonstrates a 99% recall for non-promotable employees (class 0), meaning it accurately identifies and screens out 99% of employees who are not eligible for promotion. This high screening efficiency allows HR to focus resources on a smaller pool of high-potential candidates, significantly reducing the time and effort spent on non-eligible employees.
