@@ -1,4 +1,4 @@
-# HR Analytics : Predicting Employee Promotion 
+# HR Analytics : Predicting Employee Promotion 🧑‍💼👩‍💼
 
 ## The Data Miners Group 
 - Lintang Rizki Ramadhani
