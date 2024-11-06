@@ -1,27 +1,20 @@
-# HR Analytics : Predicting Employee Promotion ![image](https://github.com/user-attachments/assets/c6bcb3e7-3a82-4fef-9334-296e5ff34843)
+# HR Analytics : Predicting Employee Promotion 
 
 ## The Data Miners Group 
 - Lintang Rizki Ramadhani
 - Army Putera Parta
 - Nur Ilmalani Harahap
+  
+## Project Overview
+A company wants to identify employees with high promotion potential by analyzing historical promotion data alongside factors like performance ratings, training participation, awards, length of service, and demographic information. This predictive approach aims to streamline the promotion process, allowing HR to focus on high-potential candidates, reduce manual evaluation time, and ensure top-performing employees are rewarded appropriately.
 
-## Context
-A company with a growing workforce wants to optimize its internal promotion process. The organization is keen to identify employees who are most likely to be promoted based on historical promotion data and various factors such as performance, training, award, service year and demographics. This will help streamline the promotion process, saving time and resources, while ensuring that high-performing employees are rewarded appropriately.
+The project has two primary goals:
 
-Target :
+- Develop a Predictive Model to Determine Promotion Likelihood
+- Identify Key Factors Influencing Promotions
 
-0 : Employee not promoted
-
-1 : Employee promoted
-
-## Problem Statement
-Promoting employees without an effective screening process can lead to inefficiencies, including potential loss of talent and resources. The company wants to improve the promotion process by identifying employees who are likely to be promoted based on data-driven insights. This will allow the organization to focus on retaining top talent, planning for promotions more effectively, and ensuring fairness in the selection process.
-
-## Goals
-- Develop a predictive model to determine the likelihood of an employee being promoted
-- Understand the key factors influencing employee promotions
-
-## Dataset
+## Project Details
+### Data Collection
 Dataset source : [Kaggle](https://www.kaggle.com/datasets/arashnic/hr-ana/data)
 <div style="justify-content: center;">
 
@@ -43,4 +36,30 @@ Dataset source : [Kaggle](https://www.kaggle.com/datasets/arashnic/hr-ana/data)
 
 </div>
 
-## 
+### Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA) is essential for understanding the dataset, identifying patterns, and preparing features for modeling. This project’s EDA focused on univariate and bivariate analyses to extract meaningful insights from the data.
+
+### Data Preprocessing
+Data preprocessing is a crucial step in building a reliable predictive model. In this project, the following steps were taken to prepare the dataset for training the promotion prediction model:
+- Handling Missing Values
+- Encoding Categorical Data
+- Feature Scaling
+  
+### Modelling and Evaluation
+1. Modeling with Default Parameters
+Initially, we built baseline models using default hyperparameters. This step provided a starting point and allowed us to establish benchmark metrics for comparison. Models that will be used :
+- Logistic Regression
+- Decision Tree Classifier
+- Random Forest Classifier
+- XGBoost Classifier
+- GradientBoosting Classifier
+
+2. Modeling with Oversampling
+Given the imbalance in the target variable, we applied oversampling techniques to the training set to improve the model's ability to identify the minority class. This step aimed to address class imbalance and improve model performance on the positive class. 
+
+3. Hyperparameter Tuning
+We performed hyperparameter tuning to enhance the model’s performance by optimizing key parameters. This step involved experimenting with various parameter combinations to find the best configuration for improved F1 scores.
+
+4. Threshold Adjustment
+Finally, we adjusted the decision threshold to achieve a balance between precision and recall, optimizing the F1 score.
+
