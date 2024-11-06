@@ -48,7 +48,7 @@ Data preprocessing is a crucial step in building a reliable predictive model. In
   - Feature Scaling
   
 ### Modelling and Evaluation
-1. Modeling with Default Parameters
+**1. Modeling with Default Parameters**
 
 Initially, we built baseline models using default hyperparameters. This step provided a starting point and allowed us to establish benchmark metrics for comparison. Models that will be used :
 - Logistic Regression
@@ -57,15 +57,15 @@ Initially, we built baseline models using default hyperparameters. This step pro
 - XGBoost Classifier
 - GradientBoosting Classifier
 
-2. Modeling with Oversampling
+**2. Modeling with Oversampling**
    
 Given the imbalance in the target variable, we applied oversampling techniques to the training set to improve the model's ability to identify the minority class. This step aimed to address class imbalance and improve model performance on the positive class. 
 
-4. Hyperparameter Tuning
+**3. Hyperparameter Tuning**
    
 We performed hyperparameter tuning to enhance the model’s performance by optimizing key parameters. This step involved experimenting with various parameter combinations to find the best configuration for improved F1 scores.
 
-6. Threshold Adjustment
+**4. Threshold Adjustment**
    
 Finally, we adjusted the decision threshold to achieve a balance between precision and recall, optimizing the F1 score.
 
