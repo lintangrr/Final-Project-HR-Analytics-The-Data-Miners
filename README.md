@@ -38,7 +38,7 @@ Dataset source : [Kaggle](https://www.kaggle.com/datasets/arashnic/hr-ana/data)
 
 ### Exploratory Data Analysis (EDA)
 
-Exploratory Data Analysis (EDA) is essential for understanding the dataset, identifying patterns, and preparing features for modeling. This project’s EDA focused on univariate and bivariate analyses to extract meaningful insights from the data.
+  Exploratory Data Analysis (EDA) is essential for understanding the dataset, identifying patterns, and preparing features for modeling. This project’s EDA focused on univariate and bivariate analyses to extract  meaningful insights from the data.
 
 ### Data Preprocessing
 
