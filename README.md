@@ -20,4 +20,25 @@ Promoting employees without an effective screening process can lead to inefficie
 - Develop a predictive model to determine the likelihood of an employee being promoted
 - Understand the key factors influencing employee promotions
 
+## Data
+<div style="justify-content: center;">
+
+| Feature              | Description                                                   |
+|----------------------|---------------------------------------------------------------|
+| employee_id          | Unique ID for employee                                        |
+| department           | Department of employee                                        |
+| region               | Region of employment (unordered)                              |
+| education            | Education Level                                               |
+| gender               | Gender of Employee                                            |
+| recruitment_channel  | Channel of recruitment for employee                           |
+| no_of_trainings      | No of other trainings completed in previous year on soft skills, technical skills, etc. |
+| age                  | Age of Employee                                               |
+| previous_year_rating | Employee Rating for the previous year                         |
+| length_of_service    | Length of service in years                                    |
+| awards_won?          | If awards won during the previous year then 1, else 0        |
+| avg_training_score   | Average score in current training evaluations                 |
+| is_promoted          | Recommended for promotion                                     |
+
+</div>
+
 
