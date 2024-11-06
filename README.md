@@ -70,3 +70,21 @@ Initially, we built baseline models using default hyperparameters. This step pro
   Finally, we adjusted the decision threshold to achieve a balance between precision and recall, optimizing the F1 score.
 
 ## Key Findings 💡
+- **Best Classification Model**
+
+Best model for predicting employee promotion is XGBoost with SMOTE and Threshold Adjustment.
+
+- **High Screening Efficiency for Non-Eligible Employees**
+
+The model demonstrates a 99% recall for non-promotable employees (class 0), meaning it accurately identifies and screens out 99% of employees who are not eligible for promotion. This high screening efficiency allows HR to focus resources on a smaller pool of high-potential candidates, significantly reducing the time and effort spent on non-eligible employees.
+- **Moderate Success in Identifying Promotable Employees**
+
+The model achieves a 40% recall for promotable employees (class 1), effectively identifying 40% of the total employees who truly deserve a promotion. While this recall rate means that some promotable employees might be overlooked, it still provides HR with a substantial list of high-potential candidates for review, streamlining the overall selection process.
+- **High Precision for Promotion Predictions**
+
+With a precision of 78% for promotable employees, the model's promotion predictions are accurate 78% of the time. This suggests that, when the model does flag an employee as eligible for promotion, there is a strong likelihood that they genuinely meet the criteria. However, approximately 22% of employees predicted to be eligible may not meet all the promotion criteria, indicating room for refining the model's selection accuracy.
+- **Key Factors Influencing Promotion Decisions**
+The analysis identified three primary factors influencing promotion likelihood:
+  - Award Wins: Employees who have won awards are more likely to be promoted, suggesting a strong link between recognitions and promotion decisions.
+  - Previous Year Rating: Higher performance ratings from the previous year play a significant role in promotion eligibility, highlighting the importance of consistent performance.
+  - Department (Sales & Marketing): Employees in the Sales & Marketing department show a higher promotion rate, indicating that department-specific factors may impact promotion decisions.
