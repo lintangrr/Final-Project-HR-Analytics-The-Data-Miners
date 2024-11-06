@@ -38,7 +38,7 @@ Dataset source : [Kaggle](https://www.kaggle.com/datasets/arashnic/hr-ana/data)
 
 ### Exploratory Data Analysis (EDA)
 
-  Exploratory Data Analysis (EDA) is essential for understanding the dataset, identifying patterns, and preparing features for modeling. This project’s EDA focused on univariate and bivariate analyses to extract  meaningful insights from the data.
+Exploratory Data Analysis (EDA) is essential for understanding the dataset, identifying patterns, and preparing features for modeling. This project’s EDA focused on univariate and bivariate analyses to extract  meaningful insights from the data.
 
 ### Data Preprocessing
 
@@ -59,13 +59,13 @@ Initially, we built baseline models using default hyperparameters. This step pro
 
 **2. Modeling with Oversampling**
    
-Given the imbalance in the target variable, we applied oversampling techniques to the training set to improve the model's ability to identify the minority class. This step aimed to address class imbalance and improve model performance on the positive class. 
+  Given the imbalance in the target variable, we applied oversampling techniques to the training set to improve the model's ability to identify the minority class. This step aimed to address class imbalance and improve model performance on the positive class. 
 
 **3. Hyperparameter Tuning**
    
-We performed hyperparameter tuning to enhance the model’s performance by optimizing key parameters. This step involved experimenting with various parameter combinations to find the best configuration for improved F1 scores.
+  We performed hyperparameter tuning to enhance the model’s performance by optimizing key parameters. This step involved experimenting with various parameter combinations to find the best configuration for improved F1 scores.
 
 **4. Threshold Adjustment**
    
-Finally, we adjusted the decision threshold to achieve a balance between precision and recall, optimizing the F1 score.
+  Finally, we adjusted the decision threshold to achieve a balance between precision and recall, optimizing the F1 score.
 
