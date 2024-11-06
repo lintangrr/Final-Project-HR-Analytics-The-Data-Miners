@@ -1,11 +1,11 @@
 # HR Analytics : Predicting Employee Promotion 🧑‍💼👩‍💼
 
-## The Data Miners Group 
+## ⛏️ The Data Miners Group ⛏️
 - Lintang Rizki Ramadhani
 - Army Putera Parta
 - Nur Ilmalani Harahap
   
-## Project Overview
+## Project Overview 🔍
 A company wants to identify employees with high promotion potential by analyzing historical promotion data alongside factors like performance ratings, training participation, awards, length of service, and demographic information. This predictive approach aims to streamline the promotion process, allowing HR to focus on high-potential candidates, reduce manual evaluation time, and ensure top-performing employees are rewarded appropriately.
 
 The project has two primary goals:
@@ -13,7 +13,7 @@ The project has two primary goals:
 - Develop a Predictive Model to Determine Promotion Likelihood
 - Identify Key Factors Influencing Promotions
 
-## Project Details
+## Project Details 📝
 ### Data Collection
 Dataset source : [Kaggle](https://www.kaggle.com/datasets/arashnic/hr-ana/data)
 <div style="justify-content: center;">
@@ -69,3 +69,4 @@ Initially, we built baseline models using default hyperparameters. This step pro
    
   Finally, we adjusted the decision threshold to achieve a balance between precision and recall, optimizing the F1 score.
 
+## Key Findings 💡
