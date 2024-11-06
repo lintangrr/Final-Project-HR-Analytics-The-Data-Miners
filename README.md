@@ -20,7 +20,8 @@ Promoting employees without an effective screening process can lead to inefficie
 - Develop a predictive model to determine the likelihood of an employee being promoted
 - Understand the key factors influencing employee promotions
 
-## Data
+## Dataset
+Dataset source : [Kaggle](https://www.kaggle.com/datasets/arashnic/hr-ana/data)
 <div style="justify-content: center;">
 
 | Feature              | Description                                                   |
@@ -41,4 +42,4 @@ Promoting employees without an effective screening process can lead to inefficie
 
 </div>
 
-
+## 
